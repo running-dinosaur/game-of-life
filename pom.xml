@@ -495,4 +495,20 @@
             </reporting>
         </profile>
     </profiles>
+    
+    <!--定义snapshots库和releases库的nexus地址-->  
+    <distributionManagement>  
+        <repository>  
+            <id>nexus-releases</id>  
+            <url>  
+                http://192.168.0.10:8081/repository/maven-releases/
+            </url>  
+        </repository>  
+        <snapshotRepository>  
+            <id>nexus-snapshots</id>  
+            <url>  
+                http://192.168.0.10:8081/repository/maven-snapshots/
+            </url>  
+        </snapshotRepository>  
+    </distributionManagement> 
 </project>
