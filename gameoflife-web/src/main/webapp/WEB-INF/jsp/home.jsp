@@ -61,7 +61,7 @@
     </style>
 </head>
 <body>
-<h2>Welcome to Yan's 游戏人生!</h2>
+<h2>Welcome to Yan's Game of Life!</h2>
 
 <div class="intro">
     <p>This is a really cool web version of Conway's famous Game Of
