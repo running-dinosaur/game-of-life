@@ -85,7 +85,7 @@
 
 
 <div class="breadcrumbs">
-    <a href="${homePage}">home</a> > New Game
+    <a href="${homePage}">home</a> > 新游戏
 </div>
 <div class="intro">Please seed your universe</div>
 <div class="griddisplay">
