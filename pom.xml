@@ -147,6 +147,20 @@
                 <configuration>
                 	<configLocation>config/custom-checkstyle.xml</configLocation>
                 </configuration>
+			    <executions>
+					<execution>
+						<id>validate</id>
+						<phase>validate</phase>
+						<configuration>
+							<consoleOutput>true</consoleOutput>
+							<failsOnError>true</failsOnError>
+							<includeTestSourceDirectory>true</includeTestSourceDirectory>
+						</configuration>
+						<goals>
+							<goal>checkstyle</goal>
+						</goals>
+					</execution>
+				</executions>
             </plugin>
 			<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
