@@ -1,0 +1,18 @@
+pipeline {
+   agent any
+   stages {
+      stage('拉取代码'){
+         steps {
+            git 'https://github.com/running-dinosaur/game-of-life.git'
+         }
+      }
+
+      stage('构建'){
+         steps {
+            // Run the maven build
+            sh "mvn clean package"
+//            junit '**/target/surefire-reports/TEST-*.xml'
+         }
+      }
+   }
+}
