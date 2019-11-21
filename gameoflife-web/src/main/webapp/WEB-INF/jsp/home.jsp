@@ -61,7 +61,7 @@
     </style>
 </head>
 <body>
-<h2>Welcome to ConWay's Game of Life!</h2>
+<h3>Welcome to ConWay's Game of Life! Do it!</h3>
 
 <div class="intro">
     <p>This is a really cool web version of Conway's famous Game Of
