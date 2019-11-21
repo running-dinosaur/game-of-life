@@ -7,7 +7,7 @@
     <title>The Game Of Life</title>
     <!--  TODO: Don't inline this -->
     <style type="text/css">
-        h2 {
+        h3 {
             color: blue;
             font-family: sans-serif;
         }
