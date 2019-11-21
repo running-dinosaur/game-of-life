@@ -13,6 +13,12 @@ pipeline {
             sh "mvn clean package"
          }
       }
+      
+      stage('部署'){
+         steps {
+            echo "deploy"
+         }
+      }
    }
    post {
        always {
