@@ -145,7 +145,7 @@
             	<artifactId>maven-checkstyle-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                	<configLocation>/config/custom-checkstyle.xml</configLocation>
+                	<configLocation>config/custom-checkstyle.xml</configLocation>
                 </configuration>
             </plugin>
 			<plugin>
@@ -164,7 +164,7 @@
                     <aggregate>true</aggregate>
                     <format>xml</format>
                     <rulesets>
-                    	<ruleset>/config/pmd-rules.xml</ruleset>
+                    	<ruleset>config/pmd-rules.xml</ruleset>
                     </rulesets>
                     <!-- CPD options -->
                     <minimumTokens>20</minimumTokens>
