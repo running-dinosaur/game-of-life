@@ -153,7 +153,7 @@
 						<phase>validate</phase>
 						<configuration>
 							<consoleOutput>true</consoleOutput>
-							<failsOnError>true</failsOnError>
+							<failsOnError>false</failsOnError>
 							<includeTestSourceDirectory>true</includeTestSourceDirectory>
 						</configuration>
 						<goals>
