@@ -11,8 +11,14 @@ pipeline {
          steps {
             // Run the maven build
             sh "mvn clean package"
-//            junit '**/target/surefire-reports/TEST-*.xml'
          }
       }
    }
+   post {
+       always {
+			junit testResults: "**/target/surefire-reports/TEST-*.xml"
+			archiveArtifacts artifacts: '**/target/*.jar,**/target/*.war'
+       }
+   }
+
 }
